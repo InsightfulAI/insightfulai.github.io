@@ -17,4 +17,6 @@ Neuroball demonstrates that artificial neural networks have applications in many
 
 ## InClassifier - The Future of Accessibility
 
+![InClassifier](/assets/images/inclassifier.png)
+
 InClassifier is an iOS app under development. InClassifier will be able to utilise the device's camera to recognise objects, meaning people with visual impairments will be able to use InClassifier to quickly scan an unfamiliar environment. InClassifier is based on the [Xception model](https://keras.io/applications/#xception) which can recognise 1000 unique objects with a top-5 accuracy of 94.5%.
