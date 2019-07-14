@@ -1,2 +1,5 @@
-theme: jekyll-theme-cayman
 title: InsightfulAI
+description: Applied machine learning. Technology with a heart.
+#show_downloads: true
+google_analytics:
+theme: jekyll-theme-cayman
