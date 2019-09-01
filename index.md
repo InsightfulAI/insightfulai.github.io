@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# InsightfulAI - Technology with a Heart
+# InsightfulAI - Vision & Heart
 
 Since 2019, InsightfulAI has been creating innovative solutions with Machine Learning. Our goal is to utilise machine learning to improve the lives of people.
 
@@ -11,7 +11,7 @@ Since 2019, InsightfulAI has been creating innovative solutions with Machine Lea
 
 # Our Projects
 
-We are working closely with computer vision and machine learning. Currently, we are developing an application which can recognise objects from a photo.
+We work closely with computer vision and machine learning. Currently, we are developing an application which can recognise objects from a photo.
 
 [Learn more about our projects](./projects.html){: .btn}
 
