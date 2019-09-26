@@ -14,9 +14,15 @@ Neuroball is a simple [Swift Playground](https://www.apple.com/au/swift/playgrou
 Neuroball demonstrates that artificial neural networks have applications in many fields, some surprising, like gaming. As Neuroball is just a proof of concept, it may be prone to technical issues. It is available on GitHub under the Apache Licence 2.0.
 
 [Neuroball on GitHub](https://github.com/InsightfulAI/neuroball){: .btn}
-
+  
 ## InClassifier - The Future of Accessibility
 
-![InClassifier](/assets/images/inclassifier.png)
+<iframe width="854" height="480"
+src="https://www.youtube.com/embed/YGRv3eGVaU0">
+</iframe>
 
-InClassifier is an iOS app under development. InClassifier will be able to utilise the device's camera to recognise objects, meaning people with visual impairments will be able to use InClassifier to quickly scan an unfamiliar environment. InClassifier is based on the [Xception model](https://keras.io/applications/#xception) which can recognise 1000 unique objects with a top-5 accuracy of 94.5%.
+{% comment %}
+![InClassifier](/assets/images/inclassifier.png)
+{% endcomment %}
+
+InClassifier is an iOS app utilising the device's camera to recognise objects, meaning people with visual impairments can use InClassifier to quickly scan an unfamiliar environment. InClassifier is based on the [Xception model](https://keras.io/applications/#xception) which can recognise 1000 unique objects with a top-5 accuracy of 94.5%.

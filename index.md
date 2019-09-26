@@ -3,11 +3,11 @@ layout: default
 title: Home
 ---
 
-# InsightfulAI - Vision & Heart
+# Insightful AI - Vision & Heart
 
-Since 2019, InsightfulAI has been creating innovative solutions with Machine Learning. Our goal is to utilise machine learning to improve the lives of people.
+Since 2019, Insightful AI has been creating innovative solutions with Machine Learning. Our goal is to utilise machine learning to improve the lives of people.
 
-[Learn more about InsightfulAI](./about.html){: .btn}
+[Learn more about Insightful AI](./about.html){: .btn}
 
 # Our Projects
 

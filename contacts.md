@@ -4,14 +4,15 @@ title: Contact Us
 ---
 
 # Contact us
-InsightfulAI can be reached through email.
+Insightful AI can be reached through email.
 
 <insightfulai@gmail.com>
 
-&nbsp;
+# Follow Us
+Insightful AI can be followed on social media on the following sites:
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
+<nav>
+    {% for item in site.data.social %}
+        <a href="{{ item.link }}">{{ item.name }} <br> <br> </a>
+    {% endfor %}
+</nav>
