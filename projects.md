@@ -26,3 +26,5 @@ src="https://www.youtube.com/embed/YGRv3eGVaU0">
 {% endcomment %}
 
 InClassifier is an iOS app utilising the device's camera to recognise objects, meaning people with visual impairments can use InClassifier to quickly scan an unfamiliar environment. InClassifier is based on the [Xception model](https://keras.io/applications/#xception) which can recognise 1000 unique objects with a top-5 accuracy of 94.5%.
+
+[InClassifier on the App Store](https://apps.apple.com/us/app/inclassifier/id1481309594){: .btn}
