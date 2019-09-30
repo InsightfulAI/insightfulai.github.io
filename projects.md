@@ -5,6 +5,7 @@ title: Projects
 
 # Projects
 
+<a name="neuroball"></a>
 ## Neuroball - Man vs Machine
 
 ![Neuroball](/assets/images/neuroball.png)
@@ -14,7 +15,8 @@ Neuroball is a simple [Swift Playground](https://www.apple.com/au/swift/playgrou
 Neuroball demonstrates that artificial neural networks have applications in many fields, some surprising, like gaming. As Neuroball is just a proof of concept, it may be prone to technical issues. It is available on GitHub under the Apache Licence 2.0.
 
 [Neuroball on GitHub](https://github.com/InsightfulAI/neuroball){: .btn}
-  
+
+<a name="inclassifier"></a>
 ## InClassifier - The Future of Accessibility
 
 <iframe width="854" height="480"
