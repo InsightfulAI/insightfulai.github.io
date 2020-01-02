@@ -1,16 +1,18 @@
+@import "colors";
 // Breakpoints
 $large-breakpoint: 64em !default;
 $medium-breakpoint: 42em !default;
 
+
 // Headers
-$header-heading-color: #1981d1 !default;
+$header-heading-color: $color-1 !default;
 $header-bg-color: #202020 !default;
 //$header-bg-color-secondary: #155799 !default;
 
 // Text
-$section-headings-color: #1981d1 !default;
+$section-headings-color: $color-1 !default;
 $body-text-color: #606c71 !default;
-$body-link-color: #17d1b0 !default;
+$body-link-color: $color-2-dark !default;
 $blockquote-text-color: #819198 !default;
 $body-bg-color: #ffffff !default;
 
