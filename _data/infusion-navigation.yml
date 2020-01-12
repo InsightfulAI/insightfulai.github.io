@@ -1,0 +1,8 @@
+- name: HOME
+  link: /infusion/
+
+- name: GALLERY
+  link: /infusion/gallery.html
+
+- name: PRESS
+  link: /infusion/press.html

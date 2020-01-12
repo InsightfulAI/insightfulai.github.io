@@ -1,0 +1,8 @@
+<section style="text-align: center; margin: 10vh 0">
+    {% for item in site.data.infusion-navigation %}
+        {% if page.url != item.link %}
+            <a href="{{ item.link }}" class="btn">{{ item.name }} ></a>
+            <br/>
+        {% endif %}
+    {% endfor %}
+</section>

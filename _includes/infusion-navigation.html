@@ -1,0 +1,4 @@
+<nav>
+    {% for item in site.data.infusion-navigation %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current-nav"{% else %}class="unselected-nav"{% endif %} >{{ item.name }}</a>    {% endfor %}
+</nav>
