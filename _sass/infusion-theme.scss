@@ -595,11 +595,16 @@ a {
   /* Set a specific height */
   height: 100vh;
   max-width: 100%;
-  width :100%; 
+  width: 100%;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: auto 100vh;
-  //background-size: contain;
+  
+  
+  @media screen and (max-width: 1024px){
+    background-attachment: initial;
+  }
+
 }
