@@ -7,7 +7,7 @@ title: Testing
 
 Follow this link and you will be prompted to download an alpha version of Infusion. As it is still in active development, it may be unstable and features may be continuously added or modified, and the current version is in no way representative of the final version. Alpha testing is limited to 100 users.
 
-[ALPHA TESTING >](/infusion/testing.html){: .btn}
+[ALPHA TESTING >](https://testflight.apple.com/join/ip7ErP0Y){: .btn}
 
 If you're a journalist, a separate link exists for you. It is recommended that you contact us through the link provided in the [Press](/infusion/press.html) tab.
 
