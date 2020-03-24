@@ -1,0 +1,68 @@
+---
+layout: infusion-new
+title: Infusion - Incredible AI Art
+---
+
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+    <head>
+        <title>{{page.title}} | Infusion - Incredible AI Art</title>
+        <link rel="shortcut icon" type="image/png" href="/infusion/assets/images/favicon.png">
+    
+        {% if site.google_analytics %}
+          <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '{{ site.google_analytics }}');
+          </script>
+        {% endif %}
+        <meta charset="UTF-8">
+    
+        {% seo %}
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#1981d1">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <link rel="stylesheet" href="{{ 'assets/css/infusion-style-new.css?v=' | append: site.github.build_revision | relative_url }}">
+        
+        
+    </head>
+    <body>
+
+        <header class="page-header">
+          {% include infusion-navigation.html %}
+        </header>
+        
+        <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+        
+    
+        <main style="min-height: 100vh;">
+          {{ content }}
+        </main>
+
+
+    
+        <footer class="site-footer">
+          <section class="panel" style="height: auto;">
+            <img src="/infusion/assets/images/logos/LogoTextDark.png" style="max-width: 30%;">
+            <img src="/assets/images/LogoLargeDark.png" style="max-width: 30%;">
+          </section>
+          <br>
+          <section class="panel" style="height: auto;">
+            <a class="nav" href="/infusion/assets/files/press-kit.zip">Download press kit ></a>
+            <a class="nav" href="/infusion/media#contact">Contact us ></a>
+            <a class="nav" href="/infusion/credits.html">Image credits ></a>
+            <a class="nav" href="/">Back to Insightful AI ></a>
+          </section>
+          <br>
+          <p style="color: gray; font-size: 1rem;">
+            © Insightful AI 2020
+          </p>
+          </section>
+        </footer>
+    </body>
+
+</html>

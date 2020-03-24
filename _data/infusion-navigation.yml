@@ -1,11 +1,20 @@
-- name: HOME
+- name: Home
   link: /infusion/
 
-- name: TESTING
-  link: /infusion/testing.html
-
-- name: GALLERY
+- name: Gallery
   link: /infusion/gallery.html
 
-- name: PRESS
-  link: /infusion/press.html
+- name: Creation
+  link: /infusion/creation.html
+
+- name: Style
+  link: /infusion/style.html
+
+- name: Technology
+  link: /infusion/technology.html
+
+- name: Testing
+  link: /infusion/testing.html
+
+- name: Media
+  link: /infusion/media.html
