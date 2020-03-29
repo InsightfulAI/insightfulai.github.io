@@ -47,7 +47,7 @@ If you have any inquiries, don't hesitate to contact us as [insightfulai@gmail.c
 ## Please note that images not mentioned above are NOT licenced under the CC BY-SA licence.
 
 # About
-Version 2.0 of Infusion Press-Kit. Please note that all materials in this press kit, unless otherwise noted, are licenced under the [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) licence. This means the below:
+Version 2.2 of Infusion Press-Kit. Please note that all materials in this press kit, unless otherwise noted, are licenced under the [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) licence. This means the below:
 
 * You are free to share the material for any purpose, including commercial, as long as you credit the author (for example, by adding a link to the Infusion website, as noted in the "Guidelines" section)
 * You are not allowed to share a modified version of the content licenced under the licence (as an example, you are not allowed to share an image distributed in this press-kit if you removed a watermark)

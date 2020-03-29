@@ -1,50 +1,10 @@
+---
+layout: default-no-text
+---
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-
-    <link rel="shortcut icon" type="image/png" href="/assets/images/icon.png">
-
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
-
-    {% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#1981d1">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    
-  </head>
-  <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-
-    <header class="page-header" role="banner">
-      <img src="/assets/images/LogoSmall.png" alt="InsightfulAI" width="100rem">
-      {% include navigation.html %}
-    </header>
-
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-    </main>
-
-    <footer class="site-footer">
-      {% include social.html %}
-      <br>
-      <br>
-      <img src="/assets/images/LogoLarge.png" alt="InsightfulAI" width="400rem">
-      <h2 class="project-tagline">Vision & Heart</h2>
-      <a href="/about.html" class="btn">About</a>
-      <a href="https://www.patreon.com/insightfulai" class="btn">Donate</a>
-      <br>
-      <br>
-      © 2019 Insightful AI
-    </footer>
-  </body>
+    <section class="main-content">
+        {{ content }}
+    </section>
 </html>
