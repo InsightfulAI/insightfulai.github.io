@@ -528,11 +528,18 @@ a {
   100%{opacity:1}
 }
 
-.vertical-background{
+.parallax {
   background-position: center center; 
   background-size: contain; 
   background-attachment: fixed; 
   background-repeat: no-repeat;
+  @supports (-webkit-touch-callout: inherit) {
+    background-attachment: scroll;
+  }
+}
+
+.vertical-background{
+  @extend .parallax;
   @include small {
     background-size: cover; 
   }
