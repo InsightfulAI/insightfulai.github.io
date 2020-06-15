@@ -5,27 +5,25 @@ title: news
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
     <section>
-        <section class="panel white-1">
+        <section class="panel">
             <section class="main-content">
                 <a name="contact"></a>
-                <h1>Official Infusion news.</h1>
-                <h2>Here is the latest news about Infusion: updates, hints and more.</h2>
+                <div class="large-space"></div>
+                <h1>Official Infusion News.</h1>
+                <h2></h2>
                 <p>
-                    This page lists the latest news about Infusion. Whether it's information about
-                    updates, tips for getting the most out of Infusion, or other newsworthy events that
-                    may have occured, you can find it here.
+                    Here is official source of Infusion-related news.
                 </p>
-                <a class="btn" href="mailto:insightfulai@gmail.com?subject=Media%20Inquiry%About%Infusion">Contact us ></a>
+                {% for post in site.posts %}
+                    <div class="large-space"></div>
+                    <h1><a href="{{ post.url }}" style="color: white;">{{ post.title }}</a></h1>
+                    <h2>{{ post.date | date_to_string }}</h2>
+                    {{ post.excerpt }}
+                {% endfor %}
+                <div class="large-space"></div>
             </section>
+            
         </section>
-        {% for post in site.posts %}
-        <section class = "panel {% cycle 'white-3', 'white-1' %}" style="height: 50vh">
-            <section class = "main-content">
-                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-                <h3>{{ post.date | date_to_string }}</h3>
-                {{ post.excerpt }}
-            </section>
-        </section>
-        {% endfor %}
+
     </section>
 </html>

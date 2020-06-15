@@ -27,7 +27,7 @@ title: Infusion - Incredible AI Art
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8">
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <link rel="stylesheet" href="{{ 'assets/css/infusion-style-new.css?v=' | append: site.github.build_revision | relative_url }}">
+        <link rel="stylesheet" href="{{ 'assets/css/infusion-style.css?v=' | append: site.github.build_revision | relative_url }}">
         
         
     </head>
@@ -49,17 +49,21 @@ title: Infusion - Incredible AI Art
     
         <footer class="site-footer">
           <section class="panel" style="height: auto;">
-            <img src="/infusion/assets/images/logos/LogoTextDark.png" style="max-width: 30%;">
-            <img src="/assets/images/LogoLargeDark.png" style="max-width: 30%;">
+            <img src="/infusion/assets/images/logos/LogoText.png" style="max-width: 30%;">
+            <img src="/assets/images/LogoLarge.png" style="max-width: 30%;">
           </section>
           <br>
           <section class="panel" style="height: auto;">
-            <a class="nav" href="/infusion/assets/files/press-kit.zip">Download press kit ></a>
-            <a class="nav" href="/infusion/media#contact">Contact us ></a>
-            <a class="nav" href="/infusion/credits.html">Image credits ></a>
-            <a class="nav" href="/">Back to Insightful AI ></a>
+            <a class="btn" href="/infusion/testing.html">Download on iOS</a>
+            <a class="btn" href="/infusion/testing.html">Download on Android</a>
+            <a class="btn" href="/">Back to Insightful AI</a>
           </section>
           <br>
+          <section class="panel" style="height: auto;">
+            {% for item in site.data.social %}
+              <a href="{{ item.link }}" class="nav">{{ item.name }}</a>    
+            {% endfor %}
+          </section>
           <p style="color: gray; font-size: 1rem;">
             © Insightful AI 2020
           </p>

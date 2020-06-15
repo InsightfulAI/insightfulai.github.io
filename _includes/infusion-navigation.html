@@ -1,4 +1,6 @@
 <nav class="panel" style="height: auto;">
+    <img src="/infusion/assets/images/logos/Logo.png" class="nav-image">
     {% for item in site.data.infusion-navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current-nav"{% else %}class="unselected-nav"{% endif %} >{{ item.name }} ></a>    {% endfor %}
+        <a href="{{ item.link }}" {% if page.url == item.link %}class="current-nav"{% else %}class="unselected-nav"{% endif %} >{{ item.name }}</a>    
+    {% endfor %}
 </nav>

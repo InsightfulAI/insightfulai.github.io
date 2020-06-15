@@ -1,18 +1,15 @@
 - name: Home
   link: /infusion/
 
+- name: Features
+  link: /infusion/features.html
+
 - name: Gallery
   link: /infusion/gallery.html
 
-- name: Creation
-  link: /infusion/creation.html
-
-- name: Style
-  link: /infusion/style.html
-
-- name: Technology
-  link: /infusion/technology.html
-
+- name: Tutorials
+  link: https://infusionaiartist.blogspot.com/
+  
 - name: Testing
   link: /infusion/testing.html
 
