@@ -1,6 +1,28 @@
 <nav class="panel" style="height: auto;">
     <img src="/infusion/assets/images/logos/Logo.png" class="nav-image">
     {% for item in site.data.infusion-navigation %}
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current-nav"{% else %}class="unselected-nav"{% endif %} >{{ item.name }}</a>    
+        {% assign index = forloop.index0 | modulo: 7 %}
+        <a href="{{ item.link }}" 
+        {% if page.url == item.link %}
+            {% case index %}
+                {% when 0 %}class="nav color-0"
+                {% when 1 %}class="nav color-1"
+                {% when 2 %}class="nav color-2"
+                {% when 3 %}class="nav color-3"
+                {% when 4 %}class="nav color-4"
+                {% when 5 %}class="nav color-5"
+                {% when 6 %}class="nav color-6"
+            {% endcase %}
+        {% else %}
+            {% case index %}
+                {% when 0 %}class="unselected-nav-0"
+                {% when 1 %}class="unselected-nav-1"
+                {% when 2 %}class="unselected-nav-2"
+                {% when 3 %}class="unselected-nav-3"
+                {% when 4 %}class="unselected-nav-4"
+                {% when 5 %}class="unselected-nav-5"
+                {% when 6 %}class="unselected-nav-6"
+            {% endcase %}
+        {% endif %} >{{ item.name }}</a>
     {% endfor %}
 </nav>

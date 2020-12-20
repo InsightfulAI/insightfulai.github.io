@@ -1,20 +1,20 @@
 - name: Home
   link: /infusion/
 
-- name: Features
-  link: /infusion/features.html
+- name: Inspiration
+  link: /infusion/inspiration.html
 
-- name: Gallery
-  link: /infusion/gallery.html
+- name: Styles
+  link: /infusion/styles.html
 
-- name: Tutorials
-  link: https://infusionaiartist.blogspot.com/
+- name: Offline
+  link: /infusion/offline.html
   
-- name: Testing
-  link: /infusion/testing.html
+- name: Technology
+  link: /infusion/technology.html
 
 - name: Media
   link: /infusion/media.html
 
-- name: News
-  link: /infusion/news.html
+- name: Download
+  link: /infusion/download.html
