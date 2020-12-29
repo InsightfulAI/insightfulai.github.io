@@ -8,7 +8,11 @@ title: Projects
 <a name="infusion"></a>
 ## Infusion - Free Your Inspiration
 
+{% comment %}
 ![Infusion](/assets/images/infusionposter.png)
+{% endcomment %}
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/oJTvdEsZDTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Infusion creates incredible artworks from your photos. Powerful, fast and fully offline, Infusion delivers performance to creatives worldwide who love
 to experiment and challenge the status quo. Empower your creativity with infinite styles and an infinite stream of inspiration for free with Infusion.
@@ -18,9 +22,8 @@ to experiment and challenge the status quo. Empower your creativity with infinit
 <a name="inclassifier"></a>
 ## InClassifier - The Future of Accessibility
 
-<iframe width="854" height="480"
-src="https://www.youtube.com/embed/YGRv3eGVaU0">
-</iframe>
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/YGRv3eGVaU0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 {% comment %}
 ![InClassifier](/assets/images/inclassifier.png)
