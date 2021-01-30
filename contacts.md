@@ -4,13 +4,14 @@ title: Contact Us
 ---
 
 # Contact us
-Insightful AI can be reached through email.
+For general inquiries, please contact us at <contact@insightfulaiapps.com>.
 
-<insightfulai@gmail.com>
+For media inquiries, please contact us at <media@insightfulaiapps.com>.
+
+If you are a customer and you have an issue with one of your products, please contact us at <support@insightfulaiapps.com>.
 
 # Follow Us
-Insightful AI can be followed on social media on the following sites:
-
+Follow us on these sites!
 <nav>
     {% for item in site.data.social %}
         <a href="{{ item.link }}">{{ item.name }} <br> <br> </a>
