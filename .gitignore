@@ -3,4 +3,4 @@ _site
 Gemfile.lock
 *.gem
 sample.md
-vendor
+vendor/
