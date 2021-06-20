@@ -1,17 +1,14 @@
 ---
 layout: infusion-new-text
 ---
-<h1 style>{{ page.title }}</h1>
-<div style="text-align: center;">
-    <h3>{{ page.date | date_to_string }}</h3>
-</div>
-
-
-<!-- Smaller, more readable text -->
-<p style="font-size: 14sp;">
+<div class="blog">
+    <h1 style>{{ page.title }}</h1>
+    <div style="text-align: center;">
+        <h3>{{ page.date | date_to_string }}</h3>
+    </div>
     {{ content }}
     <div class="space"></div>
     <div class="center-content">
         <a class="btn" href="/infusion/news.html">News Home</a>
     </div>
-</p>
+</div>

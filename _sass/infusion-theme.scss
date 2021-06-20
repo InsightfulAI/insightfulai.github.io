@@ -85,7 +85,7 @@ h6 {
 
 a {
   text-decoration: underline;
-  color: $infusion-light;
+  color: $infusion-color-3;
   &:hover {
     text-decoration: none;
   }
@@ -249,6 +249,7 @@ a {
 
   p {
     margin-bottom: 1em;
+    text-align: justify;
   }
 
   code {
@@ -381,6 +382,24 @@ a {
     margin: 1rem 0;
     background-color: $hr-border-color;
     border: 0;
+  }
+}
+
+.blog {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  img {
+    display: block;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    font-size: 0.7em;
   }
 }
 

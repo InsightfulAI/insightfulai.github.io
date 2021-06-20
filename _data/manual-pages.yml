@@ -1,0 +1,26 @@
+- name: Getting Started
+  link: /infusion/manual/getting-started.html
+
+- name: Style Image
+  link: /infusion/manual/style-image.html
+
+- name: Resolution
+  link: /infusion/manual/resolution.html
+
+- name: Presets
+  link: /infusion/manual/presets.html
+
+- name: Advanced Features
+  link: /infusion/manual/advanced-features.html
+
+- name: Render Options
+  link: /infusion/manual/render-options.html
+
+- name: Infusion Pro - Depth Layers Basics
+  link: /infusion/manual/depth-layers-basics.html
+
+- name: Infusion Pro - Depth Layers Advanced
+  link: /infusion/manual/depth-layers-advanced.html
+
+- name: Infusion Tutorials
+  link: https://infusionaiartist.blogspot.com/
